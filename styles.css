@@ -5,12 +5,13 @@
     font-size: 14px;
     font-weight: 400;
     color: black;
-    text-transform: none;
+    text-transform: none;   
 }
 .wrapper__header{
     width: 1024px;
     height: 100px;
     background-color: #fff;
+    
 }
 li{
     font-size: 16px;
@@ -18,12 +19,14 @@ li{
     color: #fff;
     background-color:;
     border-radius: 30px;
+    text-align: center;
 }
 h1 {
     font-size: 40px;
     font-weight: 500;
     color: blue;
-    text-align: center;
+    position: absolute;
+    left: 200px;
     padding-top: 50px;
 }
 h1 span {
@@ -32,5 +35,85 @@ h1 span {
     font-weight: 700;
     color: cornflowerblue;
     display: block;
+    margin-left: 100px;
+    
+}
+.Avatar{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 100px;
+    top: 190px;
+}
+.telegram {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 350px;
+    top: 190px;
+}
+.call{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 409px;
+    top: 220px;  
+}
+p {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-transform: none;
+  
+}
+p span {
+    color: blue;
+}
+li {
+    list-style-type: none;
+}
+dl {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 380px;
+    top: 250px; 
+    list-style-type: none;
+}
+dt {
+    font-size: 14px;
+    font-weight: 700;
+    color: blue;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+dd {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    
+    
+}
+a   {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: blue;
+    border-radius: 30px;
+    border: 1px solid blue;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    top: 560px;
+    left: 450px;
     text-align: center;
+    
+}
+a:hover {
+    background-color: #fff;
+    color: blue;
 }
