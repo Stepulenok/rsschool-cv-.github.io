@@ -1,11 +1,36 @@
 .wrapper{
-    width: 300px;
-    height: 300px;
-    background-color: red;
+    width: 1024px;
+    height: 1024px;
+    background-color: #fff; 
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    text-transform: none;
 }
-
 .wrapper__header{
-    width: 100px;
+    width: 1024px;
     height: 100px;
-    background-color: blue;
+    background-color: #fff;
+}
+li{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color:;
+    border-radius: 30px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+    padding-top: 50px;
+}
+h1 span {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: cornflowerblue;
+    display: block;
+    text-align: center;
 }
